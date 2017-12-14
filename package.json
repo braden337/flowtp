@@ -1,0 +1,25 @@
+{
+  "name": "flowtp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:braden337/flowtp.git",
+  "author": "Braden Jonsson <braden337@gmail.com>",
+  "keywords": [
+    "totp",
+    "otp"
+  ],
+  "license": "MIT",
+  "private": false,
+  "bin": {
+    "flowtp": "index.js"
+  },
+  "scripts": {
+    "test": "jest --watch *.js"
+  },
+  "dependencies": {
+    "thirty-two": "^1.0.2"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1"
+  }
+}
