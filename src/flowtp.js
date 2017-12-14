@@ -17,14 +17,6 @@ class Flowtp {
       message[i] = timestep & 0xff
       timestep >>>= 8
     }
-    // let timebytes = []
-    // while (timestep > 0) {
-    //   timebytes.push(timestep)
-    //   timestep >>>= 8
-    // }
-    // let message = new Buffer.alloc(8, 0)
-    // message = message.fill(timebytes.reverse(), 7-timebytes.length)
-    // console.log(message)
 
     const digest = crypto.createHmac('sha1', this.secret)
                       .update(message).digest()
