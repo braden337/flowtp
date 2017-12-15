@@ -1,9 +1,9 @@
 {
   "name": "flowtp",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "0.1.0",
+  "main": "src/flowtp.js",
   "repository": "git@github.com:braden337/flowtp.git",
-  "author": "Braden Jonsson <braden337@gmail.com>",
+  "author": "Braden Jonsson <braden@railingcorners.com>",
   "keywords": [
     "totp",
     "otp"
