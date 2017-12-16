@@ -1,5 +1,7 @@
 # Flowtp
 
+[![Build Status](https://travis-ci.org/braden337/flowtp.svg?branch=master)](https://travis-ci.org/braden337/flowtp)
+
 This is a JavaScript class and a command line tool that helps you process and
 manage Time-Base One Time Passwords (TOTP) that are used for a second factor of
 authentication in some applications.
