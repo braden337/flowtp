@@ -11,15 +11,19 @@
   "license": "MIT",
   "private": false,
   "bin": {
-    "flowtp": "index.js"
+    "flowtp": "bin/index.js"
   },
   "scripts": {
-    "test": "jest --watch *.js"
+    "test": "jest",
+    "watch": "jest --watch",
+    "postinstall": "bin/install.js",
+    "destroy": "rimraf ~/.config/flowtp/"
   },
   "dependencies": {
     "thirty-two": "^1.0.2"
   },
   "devDependencies": {
-    "jest": "^21.2.1"
+    "jest": "^21.2.1",
+    "rimraf": "^2.6.2"
   }
 }

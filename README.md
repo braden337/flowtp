@@ -41,3 +41,18 @@ linda.verifyAt('184569', now+30) // true
 
 linda.toString() // '999 328'
 ```
+
+## Command Line
+
+```shell
+# Unix time is still 1513304902
+
+flowtp add github 'HELLOWORLD234567'
+# output => github was added to the JSON file
+
+flowtp github
+# output => 999 328
+
+flowtp remove github
+# output => github was removed from the JSON file 
+```
