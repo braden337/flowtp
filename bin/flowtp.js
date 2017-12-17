@@ -55,7 +55,7 @@ if (accounts[name]) {
     }, 500)
   }
   else {
-    process.stdout.write(new Flowtp(accounts[name]).toString())
+    process.stdout.write(new Flowtp(accounts[name]).term())
   }
 }
 else {
