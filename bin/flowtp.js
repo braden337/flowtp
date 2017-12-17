@@ -9,7 +9,7 @@ let name = ''
 let secret = ''
 
 flow
-  .version('0.1.0')
+  .version('1.1.1')
   .option('-l, --list', 'show all the secrets')
   .option('-r, --remove', 'remove an entry with given name')
   .option('-a, --add', 'add an entry with given name and secret')

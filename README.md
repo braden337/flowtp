@@ -46,15 +46,24 @@ linda.toString() // '999 328'
 
 ## Command Line
 
+Here are the different options that you can use
+
 ```shell
-# Unix time is still 1513304902
+  Usage: flowtp [options] <name> [secret]
 
-flowtp add github 'HELLOWORLD234567'
-# output => github was added to the JSON file
 
-flowtp github
-# output => 999 328
+  Options:
 
-flowtp remove github
-# output => github was removed from the JSON file 
+    -V, --version  output the version number
+    -l, --list     show all the secrets
+    -r, --remove   remove an entry with given name
+    -a, --add      add an entry with given name and secret
+    -w, --watch    watch TOTPs being generated forever
+    -h, --help     output usage information
 ```
+
+Once you add some secrets with the `-a` flag, you can get the current
+TOTP for that secret by typing `flowtp` followed by the name of the secret.
+Add the `-w` flag and it will loop forever, showing you the new code every
+30 seconds. If your terminal supports colors, the current 6 digit code will
+turn red when it is close to running out of time.
