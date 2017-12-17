@@ -1,4 +1,4 @@
-const Flowtp = require('../src/flowtp')
+const Flowtp = require('../lib/index')
 const b32 = require('thirty-two')
 
 const secret = b32.encode('12345678901234567890')
