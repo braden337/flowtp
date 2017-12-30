@@ -16,6 +16,9 @@ Implementing this has helped me better understand bit manipilation.
 
 ## Library
 
+Add the library to your `package.json` with NPM `npm install flowtp`
+or Yarn `yarn add flowtp`
+
 ```javascript
 const Flowtp = require('flowtp')
 
@@ -45,6 +48,9 @@ linda.toString() // '999 328'
 ```
 
 ## Command Line
+
+Install the tool globally with NPM `npm install -g flowtp`
+or Yarn `yarn global add flowtp`
 
 Here are the different options that you can use
 
