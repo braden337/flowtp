@@ -6,7 +6,7 @@ This is a JavaScript class and a command line tool that helps you process and
 manage Time-Base One Time Passwords (TOTP) that are used for a second factor of
 authentication in some applications.
 
-Implementing this has helped me better understand bit manipilation.
+Implementing this has helped me better understand bit manipulation.
 
 ## Implementation
 
